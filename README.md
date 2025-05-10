@@ -29,20 +29,23 @@
 ### dagshub
 [dagshub](https://dagshub.com/)
 
-MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow \
-MLFLOW_TRACKING_USERNAME=entbappy \
-MLFLOW_TRACKING_PASSWORD=6824692c47a4545eac5b10041d5c8edbcef0 \
+MLFLOW_TRACKING_URI= https://dagshub.com/hossam.alsheshtawy2000/End-to-end-Deep-Learning-Project-Implementation-using-MLOps-Tool-MLflow-DVC-with-CICD-Deployment.mlflow
+
+MLFLOW_TRACKING_USERNAME=hossam.alsheshtawy2000
+
+MLFLOW_TRACKING_PASSWORD=2abdc0b916faec905bc3c11d0a35229cbfc58da1
 python script.py
+
 
 Run this to export as env variables:
 
 ```bash
 
-export MLFLOW_TRACKING_URI=https://dagshub.com/entbappy/chest-Disease-Classification-MLflow-DVC.mlflow
+export MLFLOW_TRACKING_URI=https://dagshub.com/hossam.alsheshtawy2000/End-to-end-Deep-Learning-Project-Implementation-using-MLOps-Tool-MLflow-DVC-with-CICD-Deployment.mlflow
 
-export MLFLOW_TRACKING_USERNAME=entbappy 
+export MLFLOW_TRACKING_USERNAME=hossam.alsheshtawy2000 
 
-export MLFLOW_TRACKING_PASSWORD=6824692c47a369aa6f9353c5b10041d5c8edbcef0
+export MLFLOW_TRACKING_PASSWORD=62abdc0b916faec905bc3c11d0a35229cbfc58da1
 
 ```
 
